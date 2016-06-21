@@ -1,0 +1,8 @@
+<!--- Rename this to index.html and add your app token -->
+
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
+<script>
+    Smooch.init({
+        appToken: 'YOUR_APP_TOKEN'
+    });
+</script>

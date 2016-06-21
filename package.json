@@ -1,0 +1,25 @@
+{
+  "name": "smooch-translate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node src/app.js",
+    "dev": "nodemon --exec babel-node src/app.js",
+    "build": "babel src --out-dir dist"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "express": "~4.13.1",
+    "smooch-core": "~1.2.0",
+    "q": "~1.4.1",
+    "request": "~2.72.0"
+  },
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "nodemon": "^1.9.2"
+  }
+}
